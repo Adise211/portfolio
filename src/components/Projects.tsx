@@ -21,6 +21,7 @@ const projects = [
     liveUrl: "https://salespro-45922.web.app/",
     repoUrl: "https://github.com/Adise211/salesPro",
   },
+
   // {
   //   title: "Task Management App",
   //   description:
