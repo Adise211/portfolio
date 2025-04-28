@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a className="text-xl font-bold text-primary">
-              port<span className="text-foreground">folio</span>
+              Adise <span className="text-foreground">Mamoye</span>
             </a>
           </div>
 

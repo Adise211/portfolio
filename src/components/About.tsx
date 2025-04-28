@@ -39,8 +39,8 @@ const About = () => {
               <p>
                 I'm a software developer with a passion for creating beautiful,
                 functional, and user-friendly web applications. I specialize in
-                frontend development with Vue.js, but I'm also experienced with
-                the entire web stack and enjoy working on full-stack projects.
+                frontend development, but I'm also experienced with the entire
+                web stack and enjoy working on full-stack projects.
               </p>
               <p>
                 With a background in computer science and several years of

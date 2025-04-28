@@ -27,8 +27,9 @@ const Hero = () => {
           className="text-2xl md:text-3xl text-muted-foreground mb-8 animate-slide-in"
           style={{ animationDelay: "0.2s" }}
         >
-          Software Developer specializing in{" "}
-          <span className="text-primary">Vue.js</span>
+          Software Developer
+          {/* specializing in{" "}
+          <span className="text-primary">Vue.js</span> */}
         </h2>
         <p
           className="max-w-xl text-muted-foreground mb-10 animate-slide-in"
