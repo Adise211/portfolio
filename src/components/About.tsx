@@ -4,6 +4,7 @@ import { Code, Layout, Database, Server } from "lucide-react";
 const skills = [
   "Vue.js",
   "React",
+  "TypeScript",
   "JavaScript",
   "HTML/CSS",
   "Node.js",
