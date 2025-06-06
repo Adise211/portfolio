@@ -7,8 +7,6 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
-console.log("env?node", process.env);
-console.log("env?vite", import.meta.env);
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
