@@ -5,13 +5,15 @@ const experiences = [
   {
     title: "Frontend Developer",
     company: "Wyze - Cloud Knowledge Management System",
-    period: "01/2023 - Present",
+    period: "01/2023 - 05/2025",
     description:
       "Lead the frontend development of a cloud-based knowledge management system.",
     achievements: [
-      "Reduced support team response time by 42%, improving overall customer satisfaction",
-      "Implemented CI/CD pipeline that decreased deployment time by 70%",
-      "Led the migration from Vue 2 to Vue 3 for the major project.",
+      "Designed and implemented responsive UI using Vue 3 and Vuetify, enhancing usability for support staff.",
+      "Migrated legacy codebase from Vue 2 to Vue 3, introducing modular structure and improved maintainability.",
+      "Decreased deployment time by 70% through CI/CD pipeline implementation using Azure DevOps.",
+      "Enhanced UI-driven workflows, reducing customer support response time by 42%",
+      "Collaborated with cross-functional teams to ensure seamless integration of backend services",
     ],
     technologies: [
       "Vue.js",
@@ -30,9 +32,10 @@ const experiences = [
     description:
       "Optimized treatment time for ophthalmologists and optometrists by developing a comprehensive Electronic Health Record (EHR) system that improved operational efficiency.",
     achievements: [
-      "Played a key role in developing scalable, maintainable code for various system features",
-      "Integrated advanced frontend technologies to provide a modern user interface",
-      "Supported long-term application growth and reliability",
+      "Developed secure and scalable full-stack EHR solution for clinics using Node.js, PostgreSQL, and React.",
+      "Built API endpoints and integrated authentication using JWT, improving system integrity.",
+      "Delivered admin dashboards, patient record modules, and scheduling tools with responsive UIs.",
+      "Contributed to long-term stability by optimizing queries and applying database normalization techniques.",
     ],
     technologies: [
       "React.js",
@@ -40,31 +43,12 @@ const experiences = [
       "Express",
       "PostgreSQL",
       "JavaScript",
-      "Vuex",
       "Prisma",
       "RESTful APIs",
+      "JWT",
+      "Auth0",
     ],
   },
-  // {
-  //   title: "Junior Web Developer",
-  //   company: "Digital Agency",
-  //   period: "2016 - 2018",
-  //   description:
-  //     "Started as an intern and was later hired full-time. Assisted in the development of websites and web applications for various clients in different industries.",
-  //   achievements: [
-  //     "Developed responsive layouts for 15+ client websites",
-  //     "Created interactive data visualizations using D3.js",
-  //     "Built a custom CMS that reduced content update time by 60%",
-  //   ],
-  //   technologies: [
-  //     "HTML/CSS",
-  //     "JavaScript",
-  //     "jQuery",
-  //     "PHP",
-  //     "WordPress",
-  //     "MySQL",
-  //   ],
-  // },
 ];
 
 const Experience = () => {

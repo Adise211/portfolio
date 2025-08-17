@@ -2,22 +2,21 @@ import React from "react";
 import { Code, Layout, Database, Server } from "lucide-react";
 
 const skills = [
-  "Vue.js",
-  "React",
-  "TypeScript",
   "JavaScript",
-  "HTML/CSS",
   "Node.js",
   "Express",
-  "PostgreSQL",
-  "Git",
-  "GitHub",
+  "TypeScript",
   "RESTful APIs",
-  "SourceTree",
-  "Prisma",
+  "PostgreSQL",
+  "React.js",
+  "Vue.js",
+  "HTML",
+  "CSS",
+  "Prisma ORM",
+  "Git",
   "Firebase",
-  "Azure DevOps",
-  "CI/CD",
+  "CI/CD (Git Actions)",
+  "Tailwind CSS",
 ];
 
 const About = () => {
@@ -38,21 +37,24 @@ const About = () => {
 
             <div className="space-y-6 text-muted-foreground">
               <p>
-                I'm a software developer with a passion for creating beautiful,
-                functional, and user-friendly web applications. I specialize in
-                frontend development, but I'm also experienced with the entire
-                web stack and enjoy working on full-stack projects.
+                I’m a software developer with a passion for creating beautiful,
+                functional, and user-friendly web applications. While I have a
+                strong foundation in frontend development, I am eager to expand
+                my expertise and work on full-stack projects that encompass both
+                backend and frontend technologies.
               </p>
               <p>
-                With a background in computer science and several years of
-                professional experience, I've had the opportunity to work on a
-                different projects from small websites to larger enterprise
-                applications. I'm deeply committed to writing clean,
-                maintainable code and delivering exceptional user experiences.
+                With a background in computer science and about three years of
+                professional experience, I have had the opportunity to
+                contribute to a variety of projects, from small websites to
+                larger enterprise applications. I strive to write clean,
+                maintainable code and am dedicated to enhancing user experiences
+                across the entire stack.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                with a desire to learn, develop and improve every day.
+                When I’m not coding, I enjoy exploring new technologies and
+                continuously seek opportunities to learn, develop, and improve
+                my skills every day.
               </p>
             </div>
           </div>

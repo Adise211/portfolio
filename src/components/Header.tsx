@@ -48,7 +48,7 @@ export const Header = () => {
           <div className="ml-2">
             <ThemeToggle />
           </div>
-          <Button
+          {/* <Button
             size="sm"
             className="ml-2"
             onClick={() => setResumeHref("/files/my_CV.pdf")}
@@ -56,7 +56,7 @@ export const Header = () => {
             <a href={resumeHref} target="_blank">
               Resume
             </a>
-          </Button>
+          </Button> */}
         </nav>
 
         {/* Mobile menu button */}
