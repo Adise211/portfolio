@@ -5,21 +5,24 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Sales CRM Platform",
+    title: "ELeads",
     description:
-      "A serverless CRM platform aimed at helping businesses manage customer data and sales. Inspired by Salesforce, the app is built with Vue 3 and utilizes Vuetify for UI components and Firebase for authentication, database and hosting.",
-    image: "images/sales_pro_project.png",
+      "A modern lead management system built with React, TypeScript, and Node.js. ELeads helps businesses track, manage, and convert leads with a comprehensive dashboard, user management, and activity tracking.",
+    image: "images/ELeads_app.png",
     technologies: [
-      "Vue",
-      "Vuetify",
-      "Firebase",
-      "Github",
-      "Git",
-      "SASS",
-      "Azure DevOps (CI/CD)",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "JWT",
+      "Prisma",
+      "Git Actions",
     ],
-    liveUrl: "https://salespro-45922.web.app/",
-    repoUrl: "https://github.com/Adise211/salesPro",
+    liveUrl: "https://eleads.up.railway.app",
+    repoUrl: "https://github.com/Adise211/ELeads",
   },
 
   // {
