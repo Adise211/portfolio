@@ -4,8 +4,8 @@ import { Code, Layout, Database, Server } from "lucide-react";
 const skills = [
   "JavaScript",
   "Node.js",
-  "Express",
   "TypeScript",
+  "Express",
   "RESTful APIs",
   "PostgreSQL",
   "React.js",
@@ -14,8 +14,8 @@ const skills = [
   "CSS",
   "Prisma ORM",
   "Git",
+  "CI/CD (Azure DevOps)",
   "Firebase",
-  "CI/CD (Git Actions)",
   "Tailwind CSS",
 ];
 
@@ -37,24 +37,30 @@ const About = () => {
 
             <div className="space-y-6 text-muted-foreground">
               <p>
-                I’m a software developer with a passion for creating beautiful,
-                functional, and user-friendly web applications. While I have a
-                strong foundation in frontend development, I am eager to expand
-                my expertise and work on full-stack projects that encompass both
-                backend and frontend technologies.
+                I'm a Full Stack Developer with 3+ years of experience building
+                scalable web applications for healthcare and B2B SaaS platforms.
+                I specialize in the JavaScript ecosystem (React, Vue.js,
+                Node.js) and have a proven track record of driving business
+                growth through technical excellence, including delivering
+                solutions that increased customer growth by 80% and improved
+                system efficiency by up to 75%.
               </p>
               <p>
-                With a background in computer science and about three years of
-                professional experience, I have had the opportunity to
-                contribute to a variety of projects, from small websites to
-                larger enterprise applications. I strive to write clean,
-                maintainable code and am dedicated to enhancing user experiences
-                across the entire stack.
+                My experience spans from developing HIPAA-compliant EHR systems
+                for vision care practices to leading frontend development at B2B
+                startups. I excel at translating business requirements into
+                technical solutions, implementing modern development practices
+                like CI/CD workflows, and collaborating cross-functionally with
+                leadership teams to deliver production-ready applications that
+                solve real-world problems.
               </p>
               <p>
-                When I’m not coding, I enjoy exploring new technologies and
-                continuously seek opportunities to learn, develop, and improve
-                my skills every day.
+                I'm passionate about creating user-focused applications that
+                combine clean, maintainable code with exceptional user
+                experiences. Whether optimizing database performance, migrating
+                legacy codebases, or building responsive interfaces, I approach
+                every project with a focus on scalability, security, and
+                measurable impact.
               </p>
             </div>
           </div>

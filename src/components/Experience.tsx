@@ -7,47 +7,46 @@ const experiences = [
     company: "Wyze - Cloud Knowledge Management System",
     period: "01/2023 - 05/2025",
     description:
-      "Lead the frontend development of a cloud-based knowledge management system.",
+      "Led frontend development at a B2B startup, driving 80% annual customer growth through improved UX and technical excellence. Implemented modern development practices and CI/CD workflows while collaborating with leadership.",
     achievements: [
-      "Designed and implemented responsive UI using Vue 3 and Vuetify, enhancing usability for support staff.",
-      "Migrated legacy codebase from Vue 2 to Vue 3, introducing modular structure and improved maintainability.",
-      "Decreased deployment time by 70% through CI/CD pipeline implementation using Azure DevOps.",
-      "Enhanced UI-driven workflows, reducing customer support response time by 42%",
-      "Collaborated with cross-functional teams to ensure seamless integration of backend services",
+      "Designed responsive and visually appealing user interfaces using Vue 3 and Vuetify, improving usability for support staﬀ and reducing customer support response by 75%.",
+      "Migrated legacy codebase from Vue 2 to Vue 3 by refactoring into reusable, component-driven modules,leading to fewer production bugs and smoother integration with backend services.",
+      "Implemented CI/CD pipeline by configuring automated build stages and deployment scripts in Azure DevOps, reducing deployment time by 50% and improving release reliability.",
+      "Facilitated cross-functional collaboration between the CEO and backend developer by translating business requirements into technical specifications, resulting in successful API integration and 100% requirement fulfillment.",
     ],
-    technologies: [
-      "Vue.js",
-      "Pinia",
-      "Vuetify",
-      "Azure DevOps",
-      "JavaScript",
-      "Git",
-      "SourceTree",
-    ],
+    // technologies: [
+    //   "Vue.js",
+    //   "Pinia",
+    //   "Vuetify",
+    //   "Azure DevOps",
+    //   "JavaScript",
+    //   "Git",
+    //   "SourceTree",
+    // ],
   },
   {
-    title: "Junior Full Stack Developer",
+    title: "Full Stack Developer",
     company: "Moyae - Electronic Health Record System",
     period: "03/2022 - 06/2022",
     description:
-      "Optimized treatment time for ophthalmologists and optometrists by developing a comprehensive Electronic Health Record (EHR) system that improved operational efficiency.",
+      "Developed a specialized EHR platform for vision care practices, reducing patient encounter times by 50% compared to traditional systems. Built a secure, HIPAA-compliant full-stack solution for small practice environments.",
     achievements: [
-      "Developed secure and scalable full-stack EHR solution for clinics using Node.js, PostgreSQL, and React.",
-      "Built API endpoints and integrated authentication using JWT, improving system integrity.",
-      "Delivered admin dashboards, patient record modules, and scheduling tools with responsive UIs.",
-      "Contributed to long-term stability by optimizing queries and applying database normalization techniques.",
+      "Developed full-stack EHR solution by building RESTful APIs with Node.js/PostgreSQL and React frontend components, enabling vision care practices to manage patient encounters 50% faster than traditional EMR systems.",
+      "Secured patient data by implementing JWT authentication and role-based access controls across API endpoints, ensuring HIPAA compliance for sensitive ophthalmology and optometry patient records.",
+      "Built responsive prescription management and appointment scheduling modules using React components, reducing front-office administrative tasks and streamlining clinical workflows for eye care professionals.",
+      "Optimized application performance by refactoring database queries and implementing efficient data structures, reducing patient record load times by 60% to support real-time clinical decision-making.",
     ],
-    technologies: [
-      "React.js",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "JavaScript",
-      "Prisma",
-      "RESTful APIs",
-      "JWT",
-      "Auth0",
-    ],
+    // technologies: [
+    //   "React.js",
+    //   "Node.js",
+    //   "Express",
+    //   "PostgreSQL",
+    //   "JavaScript",
+    //   "Prisma",
+    //   "RESTful APIs",
+    //   "JWT",
+    //   "Auth0",
+    // ],
   },
 ];
 
@@ -89,14 +88,13 @@ const Experience = () => {
                     ))}
                   </ul>
                 </div>
-
-                <div className="flex flex-wrap gap-2 pt-3">
+                {/* <div className="flex flex-wrap gap-2 pt-3">
                   {exp.technologies.map((tech, i) => (
                     <Badge key={i} variant="secondary">
                       {tech}
                     </Badge>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
