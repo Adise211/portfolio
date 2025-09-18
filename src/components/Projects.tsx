@@ -25,32 +25,23 @@ const projects = [
     repoUrl: "https://github.com/Adise211/ELeads",
   },
 
-  // {
-  //   title: "Task Management App",
-  //   description:
-  //     "A productivity application for teams to manage tasks, track progress, and collaborate effectively with real-time updates.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-  //   technologies: ["Vue.js", "TypeScript", "Pinia", "Socket.io", "MongoDB"],
-  //   liveUrl: "#",
-  //   repoUrl: "#",
-  // },
-  // {
-  //   title: "Weather Forecast App",
-  //   description:
-  //     "An elegant weather application that provides accurate forecasts, animated visualizations, and personalized weather alerts.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-  //   technologies: [
-  //     "Vue.js",
-  //     "OpenWeatherAPI",
-  //     "GSAP",
-  //     "PWA",
-  //     "Geolocation API",
-  //   ],
-  //   liveUrl: "#",
-  //   repoUrl: "#",
-  // },
+  {
+    title: "ChatMe",
+    description:
+      "ChatMe is a modern, responsive React chat UI library built with TypeScript, Tailwind CSS, and Radix UI. It delivers a full-featured chat experience out of the box—including conversation management, message handling, and contact integration—while staying customizable and developer-friendly.",
+    image: "images/ChatMe_lib.png",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Vitest",
+      "Vercel",
+    ],
+    liveUrl: "https://chat-me-opal.vercel.app",
+    repoUrl: "https://github.com/Adise211/ChatMe",
+  },
 ];
 
 const Projects = () => {
